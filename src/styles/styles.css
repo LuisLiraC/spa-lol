@@ -108,7 +108,7 @@ body {
 .Character-skins {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 320px);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
 }
 
@@ -150,12 +150,12 @@ body {
   padding: 20px;
 }
 
-.social img {
-  height: 50px;
-  margin: 20px 20px;
-}
-
 .social {
   display: flex;
   justify-content: center;
+}
+
+.social img {
+  height: 50px;
+  margin: 20px 20px;
 }
