@@ -1,5 +1,5 @@
 const About = () => (`
-  <div class="container">
+  <div class="container social">
     <div class="social">
       <a href="https://twitter.com/Luis_LiraC" target="_blank">
         <img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" />
