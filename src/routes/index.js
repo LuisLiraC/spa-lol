@@ -1,4 +1,5 @@
 import Header from '../templates/Header'
+import About from '../pages/About'
 import Home from '../pages/Home'
 import Character from '../templates/Character'
 import Error404 from '../pages/Error404'
@@ -8,7 +9,7 @@ import resolveRoutes from '../utils/resolveRoutes'
 const routes = {
   '/': Home,
   '/:name': Character,
-  '/about': () => `About`
+  '/about': About
 }
 
 const router = async () => {
