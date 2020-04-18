@@ -7,6 +7,7 @@ const resolveRoutes = (route) => {
     case '/about':
       return '/about'
     default:
+      route = route.includes('mundo') ? 'dr-mundo' : route.replace("'", '-')
       if (getChampion(route)) {
         return '/:name'
       }
