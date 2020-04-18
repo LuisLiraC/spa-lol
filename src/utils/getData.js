@@ -1,4 +1,4 @@
-const API = 'http://api-lol.herokuapp.com/api/champions'
+const API = 'https://api-lol.herokuapp.com/api/champions'
 
 const getData = async (name) => {
   const apiURL = name ? `${API}/${name}` : API
