@@ -5,6 +5,8 @@ const Character = async () => {
   const name = getHash()
   const champion = await getData(name)
 
+  console.log(champion)
+
   return (`
     <div class="Characters-inner">
 
